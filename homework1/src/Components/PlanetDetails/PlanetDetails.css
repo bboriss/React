@@ -1,0 +1,40 @@
+.PlanetDetails {
+  width: 30%;
+  height: 97%;
+  border-radius: 3px;
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 15px;
+  margin: 0 30px;
+  min-width: 390px;
+}
+
+.PlanetDetails .details__container {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.PlanetDetails .details__container div {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 30px;
+}
+
+.PlanetDetails .details__container div strong {
+  font-size: 22px;
+}
+
+.PlanetDetails .placeholder__container {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Hidden {
+  display: none;
+}

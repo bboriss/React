@@ -1,0 +1,18 @@
+.CloseButton {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+
+  width: 50px;
+  cursor: pointer;
+}
+
+.CloseButton:hover {
+  transition: 0.2s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.CloseButton svg {
+  height: 100%;
+  width: 100%;
+}
